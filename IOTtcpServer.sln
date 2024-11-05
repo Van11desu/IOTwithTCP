@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOTtcpServer", "IOTtcpServer\IOTtcpServer.csproj", "{01FF9AEE-31F3-4AA9-A50F-E7065ABEDFDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOTtcpClientTest", "IOTtcpClientTest\IOTtcpClientTest.csproj", "{ECC84C47-E0B4-4054-AB23-3ECCACF4860B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01FF9AEE-31F3-4AA9-A50F-E7065ABEDFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FF9AEE-31F3-4AA9-A50F-E7065ABEDFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FF9AEE-31F3-4AA9-A50F-E7065ABEDFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FF9AEE-31F3-4AA9-A50F-E7065ABEDFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC84C47-E0B4-4054-AB23-3ECCACF4860B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC84C47-E0B4-4054-AB23-3ECCACF4860B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC84C47-E0B4-4054-AB23-3ECCACF4860B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC84C47-E0B4-4054-AB23-3ECCACF4860B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

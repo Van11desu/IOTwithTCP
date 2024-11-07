@@ -26,7 +26,6 @@ void HandleClient(TcpClient client)
 
     try
     {
-        // 初始消息用于标识客户端类型
         bytesRead = stream.Read(buffer, 0, buffer.Length);
         string clientType = Encoding.UTF8.GetString(buffer, 0, bytesRead).Trim();
 
@@ -43,11 +42,10 @@ void HandleClient(TcpClient client)
             {
                 controlClients.Add(client);
             }
-
             Console.WriteLine("Control client connected.");
         }
 
-        // 监听并处理客户端的消息
+        // 监听并处理控制端的消息
         while ((bytesRead = stream.Read(buffer, 0, buffer.Length)) > 0)
         {
             string receivedMessage = Encoding.UTF8.GetString(buffer, 0, bytesRead).Trim();
@@ -79,7 +77,6 @@ void HandleClient(TcpClient client)
     }
     finally
     {
-        // 客户端断开连接的处理
         Console.WriteLine("Client disconnected.");
         client.Close();
 

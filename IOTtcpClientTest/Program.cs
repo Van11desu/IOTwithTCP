@@ -1,8 +1,10 @@
 ﻿using System.Net.Sockets;
 using System.Text;
 
-string serverIp = "frp-fly.top"; // 服务器IP地址，假设在本地运行
-int    port     = 28208;          // 与服务器监听的端口一致
+//string serverIp = "frp-fly.top";
+//int    port     = 28208;
+string serverIp = "127.0.0.1";
+int    port     = 15323;
 
 try
 {
